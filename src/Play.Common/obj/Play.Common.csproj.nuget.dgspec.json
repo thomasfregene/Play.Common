@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Play.Common\\src\\Play.Common\\Play.Common.csproj": {}
+    "C:\\projects\\play.common\\src\\play.common\\Play.Common.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Play.Common\\src\\Play.Common\\Play.Common.csproj": {
-      "version": "1.0.0",
+    "C:\\projects\\play.common\\src\\play.common\\Play.Common.csproj": {
+      "version": "1.0.1",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Play.Common\\src\\Play.Common\\Play.Common.csproj",
+        "projectUniqueName": "C:\\projects\\play.common\\src\\play.common\\Play.Common.csproj",
         "projectName": "Play.Common",
-        "projectPath": "C:\\Projects\\Play.Common\\src\\Play.Common\\Play.Common.csproj",
+        "projectPath": "C:\\projects\\play.common\\src\\play.common\\Play.Common.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Play.Common\\src\\Play.Common\\obj\\",
+        "outputPath": "C:\\projects\\play.common\\src\\play.common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[7.1.3, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[7.1.3, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[8.0.0, )"
